@@ -180,4 +180,4 @@ def player_numbers(name_of_team)
   jersey_numbers
 end
 
-def player_stats
+def player_stats(name)
