@@ -193,4 +193,7 @@ end
 
 def big_shoe_rebounds
   num = 0
+  the_hash = game_hash
+  the_hash.each_value do |hash|
+    hash[:players].each do |player|
 end
