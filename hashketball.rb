@@ -187,4 +187,5 @@ def player_stats(name)
       if player[:player_name] == name
         return player
       end
+    end
 end
