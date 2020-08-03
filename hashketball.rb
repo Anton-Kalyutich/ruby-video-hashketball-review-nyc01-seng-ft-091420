@@ -172,8 +172,9 @@ def player_numbers(name_of_team)
   the_hash = game_hash
   the_hash.each_value do |hash|
     if hash[:team_name] == name_of_team
-    hash[:players].each do |player|
-      jersey_numbers << player[:number]
+      hash[:players].each do |player|
+        jersey_numbers << player[:number]
+      end
     end
   end
   jersey_numbers
