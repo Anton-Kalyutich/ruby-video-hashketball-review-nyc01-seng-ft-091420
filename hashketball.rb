@@ -185,4 +185,5 @@ def player_stats(name)
   the_hash.each_value do |hash|
     hash[:players].each do |player|
       if player[:player_name] == name
+        return player
 end
