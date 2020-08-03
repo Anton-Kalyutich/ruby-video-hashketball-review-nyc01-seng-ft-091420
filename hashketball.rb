@@ -152,6 +152,6 @@ end
 def team_colors(name_of_team)
   the_hash = game_hash
   the_hash.each_value do |hash|
-    if
+    if hash
     
 end
