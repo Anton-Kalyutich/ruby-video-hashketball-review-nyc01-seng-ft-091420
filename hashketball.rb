@@ -175,5 +175,5 @@ def player_numbers(name_of_team)
       jersey_numbers << player[:number]
     end
   end
-  
+  jersey_numbers
 end
