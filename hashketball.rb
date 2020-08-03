@@ -198,6 +198,6 @@ def big_shoe_rebounds
     hash[:players].each do |player|
       if player[:shoe] > size
         size = player[:shoe]
-        num = player[:]
+        num = player[:rebounds]
   
 end
