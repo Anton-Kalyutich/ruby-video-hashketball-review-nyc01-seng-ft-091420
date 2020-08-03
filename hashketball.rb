@@ -168,9 +168,10 @@ def team_names
 end
 
 def player_numbers(name_of_team)
-  numbers = []
+  jersey_numbers = []
   the_hash = game_hash
   the_hash.each_value do |hash|
     hash[:players].each do |player|
+      numbers
     
 end
