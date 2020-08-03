@@ -179,3 +179,5 @@ def player_numbers(name_of_team)
   end
   jersey_numbers
 end
+
+def player_stats
