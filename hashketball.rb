@@ -171,6 +171,7 @@ def player_numbers(name_of_team)
   jersey_numbers = []
   the_hash = game_hash
   the_hash.each_value do |hash|
+    
     hash[:players].each do |player|
       jersey_numbers << player[:number]
     end
