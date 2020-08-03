@@ -196,7 +196,7 @@ def big_shoe_rebounds
   the_hash = game_hash
   the_hash.each_value do |hash|
     hash[:players].each do |player|
-      if player[:shoe] > num
+      if player[:shoe] > size
         num = 
   
 end
