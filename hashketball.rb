@@ -155,5 +155,6 @@ def team_colors(name_of_team)
     if hash[:team_name] == name_of_team
       return hash[:colors]
     end
+  end
     
 end
