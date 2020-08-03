@@ -174,5 +174,6 @@ def player_numbers(name_of_team)
     hash[:players].each do |player|
       jersey_numbers << player[:number]
     end
+  end
     
 end
